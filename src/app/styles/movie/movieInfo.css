@@ -1,0 +1,30 @@
+.movie-info-base{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.movie-info-picture{
+    height: 50%;
+    width: 50%;
+    margin-bottom: 2rem;
+}
+
+.movie-data{
+    height: 20%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    >h1{
+        color: #7c1313;
+    }
+    >h5{
+        color: rgb(4, 167, 34);
+    }
+}

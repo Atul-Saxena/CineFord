@@ -1,0 +1,46 @@
+.home-background{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../../../../public/images/threater.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(54, 54, 54);
+}
+
+.center-box{
+    height: 80vh;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: #b3b3b3;
+    text-align: center;
+
+    >h1{
+        margin-bottom: 2rem;
+        color: rgb(114, 4, 0);
+    }
+
+    >a{
+        margin-top: 2rem;
+        background-color: #ffffff;
+        height: 2.5rem;
+        width: 8rem;
+        border-radius: 1rem;
+        border: none;
+        border-style: none;
+        outline: none;
+        >button{
+            height: 100%;
+            width: 100%;
+            border: none;
+            border-style: none;
+            background-image: linear-gradient(to right, rgb(130, 1, 1) , rgb(0, 0, 0));
+            color: #ffffff;
+        }
+    }
+}

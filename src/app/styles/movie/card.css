@@ -1,0 +1,49 @@
+.card-base{
+    height: 60vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2rem 0rem;
+    margin-bottom: 1rem;
+    transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    &:hover{
+        background-color: #4d4d4d67;
+    }
+}
+
+.picture{
+    height: 50%;
+    width: 80%;
+}
+
+.info{
+    height: 80%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    >h5{
+        margin-bottom: 1rem;
+    }
+}
+
+a{
+    text-decoration: none!important;
+    border-radius: 1rem;
+    >button{
+        height: 2rem;
+        width: 8rem;
+        background-color:#ffffff;
+        border: none;
+        color: black;
+        border-radius: 1rem;
+        transition: all 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        &:hover{
+            cursor: pointer;
+            background-color:#7c1313;
+            color: rgb(255, 255, 255);
+        }
+    }
+}

@@ -1,0 +1,28 @@
+.contact-upper-basediv{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contact-hyperlinks{
+    height: 100%;
+    width: 20%;
+    background-color: rgba(255, 255, 255, 0.494);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    border-radius: 1rem;
+    &:hover{
+        box-shadow: 2px 2px 10px #00000049;
+    }
+}
+
+.contact-icon{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: rgb(124, 7, 7);
+}

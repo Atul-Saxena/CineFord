@@ -1,0 +1,59 @@
+.footer-basediv{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 20;
+}
+
+.div1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icons{
+    height: 2rem;
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    >a{
+        height: 100%;
+        width: 2rem;
+        >.icon{
+            height: 100%;
+            width: 2rem;
+            color: rgb(120, 164, 234);
+            transition: 0.4s linear;
+            &:hover{
+                color: aliceblue;
+            }
+        }
+    }
+}
+
+.div2{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.features{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.div3{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 2rem;
+}

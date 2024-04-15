@@ -1,0 +1,21 @@
+.movie-basediv{
+    height: auto;
+    width: 100%;
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    >h1{
+        margin-bottom: 2rem;
+    }
+}
+
+.movie-material{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
